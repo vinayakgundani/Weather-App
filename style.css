@@ -1,0 +1,214 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Inria Serif;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: radial-gradient(circle at 50% 10.09%, #fbb478 0, #ffac78 6.25%, #ffa379 12.5%, #ff987a 18.75%, #ff8d7b 25%, #ff807e 31.25%, #ff7281 37.5%, #fa6385 43.75%, #f25389 50%, #e8438f 56.25%, #dc3697 62.5%, #cf2da0 68.75%, #be2baa 75%, #ab2eb4 81.25%, #9434bf 87.5%, #783cc9 93.75%, #5145d3 100%);
+}
+
+.container {
+    width: 30%;
+    background-color: rgb(45, 25, 51);
+    max-height: 30%;
+    border-radius: 1.5rem;
+    box-shadow: 8px 8px 8px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    overflow: hidden;
+}
+
+.header {
+    padding: 2px;
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+}
+
+.serach-box {
+    padding: 10px;
+    width: 98%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    transition: all 1.5s ease-in-out;
+    height: 100%;
+}
+
+input {
+    width: 85%;
+    height: 2.8rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px white;
+    background: transparent;
+    border: 1px solid white;
+    padding: 5px 5px 5px 20px;
+    color: white;
+    transition: all 1.5s ease-in-out;
+    scale: 0.9;
+}
+
+.btn {
+    width: 3rem;
+    height: 2.8rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px white;
+    background: transparent;
+    border: 1px solid white;
+    transition: all 1.5s ease-in-out;
+    scale: 0.9;
+}
+
+i {
+    font-size: 1.5rem;
+    font-weight: 600;
+    opacity: 0.6;
+    color: white;
+    transition: all 1.5s ease-in-out;
+}
+
+.serach-box:hover input,
+.serach-box:hover button {
+    scale: 1;
+}
+
+.serach-box:hover i:hover {
+    opacity: 1;
+}
+
+.weather-body {
+    width: 98%;
+    height: 80%;
+    display: none;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+}
+
+.temp {
+    width: 100%;
+    height: 90%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.temp-icon {
+    width: 100%;
+    height: 75%;
+    padding: 3px;
+    scale: 0.95;
+}
+
+.temp .temp-icon img {
+    width: 100%;
+    height: 100%;
+}
+
+.temp-det {
+    width: 100%;
+    height: 5rem;
+    text-align: center;
+    color: white;
+}
+
+.hum-wind {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.hum {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    justify-content: center;
+    gap: 20px;
+}
+
+.wind {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    justify-content: center;
+    gap: 20px;
+}
+
+.hum-wind i {
+    font-size: 2rem;
+    opacity: 1;
+}
+
+.wind-content {
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.hum-content {
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.win-num,
+.hum-num {
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+#temp-status,
+#hum-status,
+#wind-status {
+    font-size: 0.9rem;
+    font-family: Montserrat;
+    font-weight: 300;
+}
+
+.num {
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.back-btn {
+    height: 2rem;
+    width: 5rem;
+    margin-top: 1.5rem;
+    border: 1px solid white;
+    box-shadow: 3px 3px 3px rgba(255, 255, 255, 0.647);
+    border-radius: 0.3rem;
+    background: transparent;
+    color: white;
+    padding: 0.05rem;
+    transition: all 0.5s ease-in-out;
+}
+
+.back-btn:hover {
+    scale: 1.05;
+}
+
+* {
+    background: transparent;
+}

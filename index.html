@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mousam-Weather For Everyone</title>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://th.bing.com/th/id/R.770b805d5c99c7931366c2e84e88f251?rik=khgO%2bY1Hh3BT9w&riu=http%3a%2f%2fpurepng.com%2fpublic%2fuploads%2flarge%2fpurepng.com-weather-iconsymbolsiconsapple-iosiosios-8-iconsios-8-721522596142qx4ep.png&ehk=6msbAydV7X6D4bO8zvLC664aXwKOdBU17dwrHcKxaAg%3d&risl=&pid=ImgRaw&r=0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Micro+5&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="serach-box">
+                <input type="text" placeholder="Enter your city here....." class="input-box">
+                <button class="btn"><i class="fa-solid fa-magnifying-glass-location"></i></button> </div>
+        </div>
+        <div class="weather-body">
+            <div class="temp">
+                <div class="temp-icon"><img src="./assets/temp-icon-removebg-preview.png" alt=""></div>
+                <div class="temp-det">
+                    <p class="num">26°C</p>
+                    <p id="temp-status">light Cloudy</p>
+                </div>
+            </div>
+            <div class="hum-wind">
+                <div class="hum">
+                    <div class="hum-icon"><i class="fa-solid fa-droplet"></i></div>
+                    <div class="hum-content">
+                        <p class="hum-num">60%</p>
+                        <p id="hum-status">Humidity</p>
+                    </div>
+                </div>
+                <div class="wind">
+                    <div class="wind-icon"><i class="fa-solid fa-wind"></i></div>
+                    <div class="wind-content">
+                        <p class="win-num">80%</p>
+                        <p id="wind-status">Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
